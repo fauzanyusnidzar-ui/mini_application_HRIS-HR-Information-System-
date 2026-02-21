@@ -8,7 +8,7 @@ other hand this tools quiet useful for manager in each division to maintain and 
 To prevent the misuse of admin authorities of this application (to add and delete account), the developer has made a super admin role who just have the authorities to confirm, but it didnt have any other features such as seen list of employees, list of resign employees etc, so the segregation of duty/dual control are works well.
 
 **Every Role in this Application Has its own features such as**
-1. **User**
+1. **User**\n
      a. **List Of Employees**
      b. **List of Resign Employees**
      c. **Logout**
