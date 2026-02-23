@@ -405,9 +405,9 @@ def super_admin_menu():
 
         if pilih == "1":
             for req in account_requests:
-                print(f"request : {"action")")
-                print(f"role : {"role"}")
-                print(f"user_name : {"user_id"}")
+                print(f"request : {req["action"]}")
+                print(f"role : {req["role"]}")
+                print(f"user_name : {req["user_id"]}")
                 print("Password : *********")
                 conf = input("Setujui? (Y/N): ").upper()
 
@@ -513,6 +513,7 @@ def main():
             super_admin_menu()
 
 main()
+
 
 
 
