@@ -389,7 +389,7 @@ def request_account(action):
         print("Request sudah dijalankan")
     if confirm == "N":
         print("Request dibatalkan")
-    elif confirm != "N" or confirm !="Y" :
+    elif confirm != "N" and confirm !="Y" :
         print("Harus diisi Y/N")
 
     kembali()
@@ -510,4 +510,5 @@ def main():
             super_admin_menu()
 
 main()
+
 
