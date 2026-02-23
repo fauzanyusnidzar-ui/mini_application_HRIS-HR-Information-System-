@@ -1,11 +1,12 @@
-# mini_application_HRIS-HR-Information-System-
-This is a mini HR application for viewing employee information. There are four types of accounts in this script: user, supervisor, admin, and super admin. Each account has its own responsibilities and features.
+This is a mini HR application designed to manage and view employee information. The system includes four types of accounts: User, Supervisor, Admin, and Super Admin. Each role has its own specific responsibilities and features based on access level.
 
-**Summary Of Application**
-This application are often used in corporate industry that used by every employees to connect with the other employees. In the
-other hand this tools quiet useful for manager in each division to maintain and get information about his/her division budget or how to manage salary for its own employees division (is the employees are overvalued or undervalued).
+**Application Summary**
 
-To prevent the misuse of admin authorities of this application (to add and delete account), the developer has made a super admin role who just have the authorities to confirm, but it didnt have any other features such as seen list of employees, list of resign employees etc, so the segregation of duty/dual control are works well.
+This application is commonly used in corporate environments to help employees connect and access relevant information about one another. It is also particularly useful for managers in each division, as it allows them to monitor their division’s budget, review salary structures, and evaluate whether employees are overvalued or undervalued.
+
+To prevent misuse of administrative privileges—such as adding or deleting accounts—the system implements a Super Admin role. The Super Admin is responsible only for confirming administrative actions and does not have access to other features, such as viewing the employee list or resignations.
+
+This ensures proper segregation of duties (dual control), reducing the risk of authority misuse and improving overall system governance.
 
 **Every Role in this Application Has its own features such as**
 
